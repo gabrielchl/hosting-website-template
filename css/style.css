@@ -1,0 +1,475 @@
+/************************************************
+#################################################
+DESIGNED BY GABRIEL CHI HONG LEE @ 2017
+https://github.com/Gabrielchihonglee
+https://profiles.wordpress.org/gabrielchihonglee
+stackoverflow.com/users/6126607/gabriel-chi-hong-lee
+#################################################
+************************************************/
+
+.row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+a,
+button {
+    -webkit-transition: all 0.24s;
+    transition: all 0.24s;
+}
+
+::selection {
+    background: #3498db;
+    color: #fff;
+}
+
+::-moz-selection {
+    background: #3498db;
+    color: #fff;
+}
+
+.topmost-nav {
+    background-color: #297ab1;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    color: #fff;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ddd;
+}
+
+.main-nav {
+    background-color: #3498db;
+    border: none;
+    margin-bottom: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.main-nav a {
+    color: #fff !important;
+}
+
+.main-nav .navbar-nav>li>a {
+    font-size: 15px;
+}
+
+.main-nav .navbar-nav>.open>a,
+.main-nav .navbar-nav>.open>a:focus,
+.main-nav .navbar-nav>.open>a:hover {
+    background-color: #297ab1;
+}
+
+.main-nav .navbar-nav>.active>a,
+.main-nav .navbar-nav>.active>a:focus,
+.main-nav .navbar-nav>.active>a:hover {
+    background-color: #297ab1;
+}
+
+.main-nav .navbar-nav>li>a:hover {
+    background-color: #297ab1;
+}
+
+@media (min-width: 768px) {
+    .navbar-nav>li>a {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+}
+
+.main-nav .navbar-brand {
+    padding: 24px 15px;
+}
+
+.main-nav .navbar-toggle {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.dropdown-menu>li>a {
+    color: #333 !important;
+    font-weight: 300;
+}
+
+@media (max-width: 767px) {
+    .dropdown-menu>li>a {
+        color: #fff !important;
+    }
+}
+
+.home-banner {
+    background-image: url(../img/home-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.home-banner .container {
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+.home-banner-title {
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.home-banner-desc {
+    font-size: 14px;
+}
+
+.home-banner a {
+    color: #fff;
+    background-color: #3498db;
+    padding: 7px 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 8px;
+}
+
+.home-banner a:hover {
+    background-color: #297ab1;
+}
+
+.buy-domain {
+    background-color: #eee;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.buy-domain h2 {
+    font-size: 26px;
+    font-weight: 300;
+    margin: 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.buy-domain-wrap {
+    background-color: #3498db;
+}
+
+.buy-domain-left input {
+    margin: 12px 0 12px 12px;
+    width: 100%;
+    padding: 10px;
+    border: 0;
+}
+
+.buy-domain-right button {
+    margin: 12px 12px 12px -12px;
+    width: 100%;
+    height: calc(100% - 24px);
+    background-color: #297ab1;
+    color: #fff;
+    border: 0;
+}
+
+.buy-domain-right button:hover {
+    background-color: #fff;
+    color: #3498db;
+}
+
+.services {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.services h2 {
+    font-size: 26px;
+    font-weight: 300;
+}
+
+.services p {
+    padding-bottom: 20px;
+}
+
+.services h3 {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 6px;
+    font-weight: 400;
+}
+
+.services img {
+    width: 100%;
+    max-width: 50px;
+}
+
+.cta {
+    background-color: #3498db;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.cta h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 300;
+}
+
+.cta p {
+    margin-bottom: 0;
+}
+
+.cta .col-xs-4 {
+    text-align: right;
+}
+
+.cta a {
+    font-size: 16px;
+    font-weight: 300;
+    color: #3498db;
+    padding: 13px 35px;
+    background-color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    display: inline-block;
+}
+
+.cta a:hover {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.plan {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #eee;
+}
+
+.plan h2 {
+    font-size: 26px;
+    font-weight: 300;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.plan-item-wrap {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+}
+
+.plan-item {
+    background-color: #fff;
+    margin-right: 0px;
+    margin-left: 0px;
+    border-bottom: 1px solid #ddd
+}
+
+.plan-item-left,
+.plan-item-right {
+    padding: 15px;
+}
+
+.plan-item h3 {
+    font-weight: 300;
+    font-size: 20px;
+    margin: 0;
+    padding-bottom: 8px;
+}
+
+.plan-item ul {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+}
+
+.plan-item ul a {
+    color: #000;
+    text-decoration: none;
+}
+
+.plan-item-right {
+    text-align: center;
+    background-color: #3498db;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plan-item-right .plan-price {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.plan-item-right .plan-unit {
+    font-weight: 22px;
+    font-weight: 300;
+}
+
+.plan-item-right a {
+    font-size: 14px;
+    font-weight: 300;
+    color: #3498db;
+    padding: 8px 28px;
+    background-color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.plan-item-right a:hover {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.testimonials {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.testimonials h2 {
+    font-size: 26px;
+    font-weight: 300;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.testimonials p {
+    font-size: 16px;
+}
+
+#quote-carousel {
+    padding: 0 10px 30px 10px;
+    margin-top: 30px;
+}
+
+#quote-carousel .carousel-control {
+    background: none;
+    color: #222;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: 30px;
+}
+
+#quote-carousel .carousel-control.left {
+    left: -12px;
+}
+
+#quote-carousel .carousel-control.right {
+    right: -12px !important;
+}
+
+#quote-carousel .carousel-indicators {
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-right: -19px;
+}
+
+#quote-carousel .carousel-indicators li {
+    background: #c0c0c0;
+}
+
+#quote-carousel .carousel-indicators .active {
+    background: #333333;
+}
+
+#quote-carousel img {
+    width: 250px;
+    height: 100px
+}
+
+.item blockquote {
+    border-left: none;
+    margin: 0;
+}
+
+.item blockquote img {
+    margin-bottom: 10px;
+}
+
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
+
+@media (min-width: 768px) {
+    #quote-carousel {
+        margin-bottom: 0;
+        padding: 0 40px 30px 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    #quote-carousel .carousel-indicators {
+        bottom: -20px !important;
+    }
+    #quote-carousel .carousel-indicators li {
+        display: inline-block;
+        margin: 0px 5px;
+        width: 10px;
+        height: 10px;
+    }
+    #quote-carousel .carousel-indicators li.active {
+        margin: 0px 5px;
+        width: 12px;
+        height: 12px;
+    }
+}
+
+.carousel-control:focus,
+{
+    opacity: .5;
+}
+
+.carousel-control:hover {
+    opacity: .9;
+}
+
+.footer {
+    background-color: #3498db;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 30px;
+}
+
+.footer h2 {
+    font-size: 22px;
+    font-weight: 300;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.footer ul {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.copyright {
+    background-color: #297ab1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.copyright a {
+    text-decoration: none;
+    color: #fff;
+}
